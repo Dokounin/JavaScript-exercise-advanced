@@ -15,3 +15,8 @@ Nous allons récupérer dynamiquement le logo de Wikipédia (`https://www.wikipe
 Vous reprenez l’ancien exercice affichant la liste des étudiants (exo 5 de JS1) et vous refaites la même en affichant plus d’formations et en exploitant la donnée JSON fournie ci-dessus.
 
 Amélioration: la même mais en fetchant la liste des étudiants depuis  https://pachyderme.net/students.json
+
+ # Exercice 3 : localStorage
+
+Vous allez créer une page web avec un champ d’input pour enregistrer en `localStorage` un nom de promotion.
+Vous allez créer un bouton pour charger le nom de promotion et un dernier pour supprimer le nom enregistré.
