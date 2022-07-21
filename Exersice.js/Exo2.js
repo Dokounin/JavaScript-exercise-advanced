@@ -1,6 +1,6 @@
 const myJSON = "https://pachyderme.net/students.json";
 
-fetch(myJSON)
+fetch(myJSON) 
   .then((response) => response.json())
   .then((studentsJSON) => {
     console.log(studentsJSON);

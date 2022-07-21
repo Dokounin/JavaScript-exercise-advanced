@@ -3,7 +3,7 @@ const buttonImg = document.querySelector("#showImg");
 
 buttonImg.addEventListener("click", () => {
   fetch(
-    "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"
+    "https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg"
   )
     .then((response) => response.blob())
     .then(function (myBlob) {
@@ -11,3 +11,4 @@ buttonImg.addEventListener("click", () => {
       myImage.src = objectURL;
     });
 });
+
